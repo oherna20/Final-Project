@@ -8,3 +8,9 @@
   import { authentication } from '~/helpers/useFirebase'
   const { isAuthenticated } = authentication()
 </script>
+
+<style>
+  #app {
+  background:url(./assets/images/cinema.jpg) center;
+}
+</style>

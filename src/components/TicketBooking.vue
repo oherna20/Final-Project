@@ -18,16 +18,15 @@
       <div class="booking-details">
         <ul class="book-left">
           <li>Wrestling Show </li>
-          <li>Schedule </li>
-          <li>Tickets</li>
-          <li>Amount</li>
+          <li>Tickets </li>
+          <li>Total</li>
           <li>Location :</li>
         </ul>
         <ul class="book-right">
           <li>: Battle of the Gods</li>
           <li>: April 25, 4:00 P.M.</li>
           <li>: <span id="counter">{{counter}}</span></li>
-          <li>: <b><span id="total">{{total}} <i>$8</i></span></b></li>
+          <li>: <b><span id="total">{{total}} <i>$8 ea.</i></span></b></li>
         </ul>
         <div class="clear"></div>
         <ul id="selected-seats" class="scrollbar scrollbar1" >
@@ -56,7 +55,7 @@ export default {
       total: 0,
       soldSeats: [],
       selectedSeats: [],
-      ticket: 100,
+      ticket: 8,
       seats: [
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10
       ]
@@ -156,7 +155,6 @@ p.copy_rights a:hover{
   text-decoration:underline;
 }
 
-/*-- movie ticket --*/
 #seat-map{
   float:left;
 }
@@ -319,8 +317,6 @@ ul.book-right li {
     line-height: 1.9em;
 }
 
-/*-- responsive media queries --*/
-
 @media (max-width: 1440px){
   .main {
     width: 50%;
@@ -365,7 +361,6 @@ ul.book-right li {
   .main {
     width: 79%;
   }
-  /*-- w3layouts --*/
   .booking-details {
     width: 33%;
   }
@@ -417,7 +412,6 @@ ul.book-right li {
     width: 100%;
     margin-top: 35px;
   }
-  /*-- agileits --*/
   .main {
     width: 59%;
   }
