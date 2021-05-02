@@ -1,7 +1,7 @@
 {
   "name": "finalproject",
   "version": "1.0.0",
-  "author": "Rodolfo Romamn <rromanv@gmail.com>",
+  "author": "Orazal Hernandez <wolfangel.oah.com>",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
@@ -11,10 +11,17 @@
   "dependencies": {
     "@vueuse/core": "^4.8.4",
     "@vueuse/firebase": "^4.9.1",
+    "build": "^0.1.4",
     "firebase": "^8.4.3",
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/runtime": "^7.14.0",
     "@iconify/json": "^1.1.331",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.3.2",
