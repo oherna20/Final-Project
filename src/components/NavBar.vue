@@ -2,11 +2,11 @@
   <nav class="bg-warmGray-900">
     <div class="container flex items-center justify-between mx-auto">
       <div class="flex items-center space-x-4">
-        <noto:film-projector class="w-16 h-16" />
+        <emojione:admission-tickets class="w-16 h-16" />
         <p
           class="text-4xl tracking-wider text-transparent bg-gradient-to-r from-yellow-300 via-orange-300 to-red-500 font-extralight bg-clip-text"
         >
-          Movies<span class="font-bold">DB</span>
+          Wrestling<span class="font-bold">Revolution</span>
         </p>
       </div>
       <div>
